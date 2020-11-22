@@ -14,7 +14,7 @@ const StarsDisplay = props => {
 };
 
 StarsDisplay.propTypes = {
-    count: PropTypes.string,
+    count: PropTypes.number,
 };
 
 export default StarsDisplay;
