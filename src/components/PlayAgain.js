@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import '../stylesheets/playAgain.css';
 
 const PlayAgain = props => {
     return (<div className="game-done">
@@ -8,7 +9,7 @@ const PlayAgain = props => {
             {props.status === 'lost' ? 'Game Over' : 'Nice'}
         </div>
 
-        <button onClick={props.resetGame}> Play again</button>
+        <button className='play-again' onClick={props.resetGame}> Play again</button>
     </div>);
 }
 

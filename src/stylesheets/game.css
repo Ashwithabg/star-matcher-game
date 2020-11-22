@@ -1,14 +1,17 @@
 .game {
+    background-color: #cccccc;
     max-width: 500px;
     margin: 0 auto;
+    border: thick solid #808080;
+    font-family: Monaco, serif;
 }
 
 .body {
     display: flex;
+    background-color: #cccccc;
 }
 
 .help {
-    color: #666;
     margin: 10px;
     text-align: center;
 }
@@ -16,24 +19,44 @@
 .left {
     text-align: center;
     width: 50%;
-    border: thin solid #ddd;
+    border: thin solid #003300;
 }
 
 .right {
     text-align: center;
     padding: 10px;
     width: 50%;
-    border: thin solid #ddd;
+    border: thin solid #003300;
 }
 
 .timer {
-    color: #666;
     margin-top: 3px;
     margin-left: 3px;
 }
 
 .game-done .message {
     font-size: 250%;
-    font-weight: bold;
     margin: 15px;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1px + 2vmin);
+    color: #000000;
+}
+
+.game-name {
+    text-align: center;
+    text-transform: uppercase;
+    color: #00cc99;
+    margin-bottom: 3%;
+    font-family: Monaco, serif;
+    font-weight: bold;
+    font-size: 300%;
+
 }
