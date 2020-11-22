@@ -5,6 +5,7 @@ import PlayNumber from './PlayNumber';
 import useGameState from './useGameState';
 import utils from './utils';
 import PropTypes from 'prop-types';
+import '../stylesheets/game.css';
 
 
 const Game = (props) => {
